@@ -1,9 +1,37 @@
 @charset "UTF-8";
 @import "./reset.css";
 /* 유인물 1~4번 항목 설정 */
+html { font-size: 16px; }
 body {
 	font-family: "Roboto Condensed", "Noto Sans KR", sans-serif;
 	color: #fff;
 	font-size: 14px;
 	background-color: #4f0600;	
 }
+.d-none {
+	display: none;
+}
+.top-bar-outer {
+	background-color: white;
+}
+.top-bar {
+	max-width: 800px;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-between; /* 수평정렬 : 양끝 */
+	align-items: center; /* 수직정렬: 중앙 */
+}
+.top-menu a {
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none; /* 텍스트-꾸밈(밑줄) : 없음 */
+}
+.top-menu a:nth-child(2){ /* 두번째 a를 선택, 좌우 여백 추가 */
+	margin: 0 1rem;
+}
+
+
+
+
+
+
