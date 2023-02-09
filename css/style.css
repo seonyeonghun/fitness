@@ -29,7 +29,18 @@ body {
 .top-menu a:nth-child(2){ /* 두번째 a를 선택, 좌우 여백 추가 */
 	margin: 0 1rem;
 }
-
+.marketing-outer {
+	background-color: white;
+}
+.marketing {
+	max-width: 800px;
+	margin: 0 auto;	
+	display: flex;
+	justify-content: space-between; /* 수평정렬 : 양끝 */
+}
+.text p {
+	color: black
+}
 
 
 
