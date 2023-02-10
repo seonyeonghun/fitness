@@ -31,15 +31,44 @@ body {
 }
 .marketing-outer {
 	background-color: white;
+	height: 500px;
 }
 .marketing {
 	max-width: 800px;
 	margin: 0 auto;	
 	display: flex;
 	justify-content: space-between; /* 수평정렬 : 양끝 */
+	position: relative;
+	top: 135px;
+}
+.text {
+	width: 300px;
+	position: relative
 }
 .text p {
 	color: black
+}
+.text p:nth-child(1) {
+	font-size: 60px;
+	color: #000000; /* 000 */
+	position: absolute;
+	left:0px;
+	top:70px;
+	
+}
+.text p:nth-child(2) {
+	font-size: 60px;
+	color: #cf160c;
+	position: absolute;
+	left: 0;
+	top: 130px;
+}
+.text p:nth-child(3) {
+	font-size: 90px;
+	color: #000000; /* 000 */
+	position: absolute;
+	left: 100px;
+	top: 130px;	
 }
 
 
