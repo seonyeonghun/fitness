@@ -71,7 +71,23 @@ body {
 	top: 130px;	
 }
 
-
+.menu-outer {
+	background-color: #830e04;
+	padding: 1rem 0;	
+}
+.menu {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: right
+}
+.menu a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	cursor: pointer;
+}
+.menu a:nth-child(2) {
+	margin: 0 1rem
+}
 
 
 
